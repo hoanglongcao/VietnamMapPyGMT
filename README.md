@@ -1,4 +1,4 @@
-# VietnamMapPyGMY
+# VietnamMapPyGMT
  Chương trình vẽ bản đồ tỉnh và huyện của Việt Nam với PyGMT
 
 Chương trình này tạo ra một bản đồ của Việt Nam bằng PyGMT và cho phép người dùng tùy chỉnh bản đồ bằng cách chọn một tỉnh và một huyện cụ thể, điều chỉnh kích thước của tỉnh và huyện, và chọn một khu vực rộng hơn thêm vào góc dưới bên trái bản đồ. Bản đồ được hiển thị với 2 cửa sổ mới sau khi người dùng nhấp vào nút "Create Map".
