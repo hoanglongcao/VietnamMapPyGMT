@@ -1,8 +1,5 @@
 # VietnamMapPyGMY
-Vẽ bản đồ tỉnh và huyện của Việt Nam với PyGMT
-
-
-# Giao diện thực hiện tạo bản đồ
+ Chương trình vẽ bản đồ tỉnh và huyện của Việt Nam với PyGMT
 
 Chương trình này tạo ra một bản đồ của Việt Nam bằng PyGMT và cho phép người dùng tùy chỉnh bản đồ bằng cách chọn một tỉnh và một huyện cụ thể, điều chỉnh kích thước của tỉnh và huyện, và chọn một khu vực rộng hơn thêm vào góc dưới bên trái bản đồ. Bản đồ được hiển thị với 2 cửa sổ mới sau khi người dùng nhấp vào nút "Create Map".
 
@@ -12,10 +9,12 @@ Chương trình này tạo ra một bản đồ của Việt Nam bằng PyGMT v�
 
 Để sử dụng chương trình này, bạn cần phải cài đặt các thư viện Python sau:
 
-- tkinter
-- PIL (Python Imaging Library)
-- pygmt
-- geopandas
+- `tkinter`: [https://docs.python.org/3/library/tkinter.html](https://docs.python.org/3/library/tkinter.html)
+- `PIL (Python Imaging Library)`: [https://python-pillow.org/](https://python-pillow.org/)
+- `pygmt`: [https://www.pygmt.org/](https://www.pygmt.org/)
+- `geopandas`: [https://geopandas.org/](https://geopandas.org/) 
+
+You can click on the links to go to the respective package homepages.
 
 Bạn có thể cài đặt các thư viện này bằng pip:
 
@@ -41,12 +40,12 @@ Lưu ý: Giá trị mặc định cho các trường đầu vào đã được t
 ## Các file trong thư mục
 
 - `MapGUI.py`: Tệp Python chính tạo ra bản đồ và tạo ra giao diện người dùng.
-- `vnm_adm_gov_20201027`: Một thư mục chứa các tệp hình dạng cho các tỉnh và huyện của Việt Nam.
+- `vnm_adm_gov_20201027`: Một thư mục chứa các tệp hình dạng cho các tỉnh và huyện của Việt Nam. Nguồn: [Viet Nam - Subnational Administrative Boundaries]https://data.humdata.org/dataset/cod-ab-vnm).
 - `map_image1.png` và `map_image2.png` : Hai bản đồ dạng PNG
 - `map_image1.pdf` và `map_image2.pdf` : Hai bản đồ dạng PDF
 
 ## Lưu ý
 
-- Phần mềm được viết trong thời gia rất ngắn nên chưa tối ưu.
-- Địa giới hành chính một số nơi có thể đã thay đổi so với bộ dữ liệu `vnm_adm_gov_20201027`
+- Phần mềm được viết trong thời gian rất ngắn nên chưa tối ưu.
+- Địa giới hành chính của một số địa phương có thể đã thay đổi so với bộ dữ liệu `vnm_adm_gov_20201027`.
 
