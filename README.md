@@ -40,7 +40,7 @@ Lưu ý: Giá trị mặc định cho các trường đầu vào đã được t
 ## Các file trong thư mục
 
 - `MapGUI.py`: Tệp Python chính tạo ra bản đồ và tạo ra giao diện người dùng.
-- `vnm_adm_gov_20201027`: Một thư mục chứa các tệp hình dạng cho các tỉnh và huyện của Việt Nam. Nguồn: [Viet Nam - Subnational Administrative Boundaries]https://data.humdata.org/dataset/cod-ab-vnm).
+- `vnm_adm_gov_20201027`: Một thư mục chứa các tệp hình dạng cho các tỉnh và huyện của Việt Nam. Nguồn: [Viet Nam - Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-vnm).
 - `map_image1.png` và `map_image2.png` : Hai bản đồ dạng PNG
 - `map_image1.pdf` và `map_image2.pdf` : Hai bản đồ dạng PDF
 
