@@ -98,9 +98,17 @@ def create_map(inset_region, province,district, province_size, district_size,pro
     fig2 = pygmt.Figure()
 
 
-    # Calculate the centroid of the province
-    district_shape = districts[districts['ADM2_EN'] == district].iloc[0]
-    centroid = district_shape.geometry.centroid
+    # Calculate the centroid of the district in case of island(s)
+    far_island_districts = [
+    'Phu Quoc',
+    'Truong Sa',
+    'Hoang Sa',
+    'Con Dao']
+    # Update centroid
+
+    if district in far_island_districts:
+        district_shape = districts[districts['ADM2_EN'] == district].iloc[0]
+        centroid = district_shape.geometry.centroid
 
     region_size = district_size
     region = [centroid.x-region_size/2+district_offset_x, centroid.x+region_size/2+district_offset_x, centroid.y-region_size/2+district_offset_y, centroid.y+region_size/2++district_offset_y]

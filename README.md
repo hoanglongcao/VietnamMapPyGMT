@@ -31,7 +31,7 @@ pip install geopandas
 2. Nhập khu vực rộng hơn để thêm vào khóc dưới bên trái (đã có giá trị mặc định).
 2. Chọn một tỉnh (hay thành phố) từ danh sách thả xuống.
 3. Chọn một huyện (hay thị xã, thành phố) từ danh sách thả xuống.
-4. Điều chỉnh kích thước của tỉnh và huyện (tùy chọn). Gia giảm kích thước và dịch chuyển mốc (offset) đối với các tỉnh có đảo ở xa để có kích thước phù hợp nhất,
+4. Điều chỉnh kích thước của tỉnh và huyện (tùy chọn). Gia giảm kích thước và dịch chuyển mốc (offset) đối với các tỉnh có đảo ở xa để có kích thước phù hợp nhất/
 6. Nhấp vào nút "Create Map".
 7. Hai bản đồ tỉnh và huyện được tạo sẽ được hiển thị trong một cửa sổ mới. Đồng thời hai bản đồ dạng PDF cũng được tạo ra để chỉnh sửa thêm (Adobe Acrobat, Inkscape, Illustrator).
 
