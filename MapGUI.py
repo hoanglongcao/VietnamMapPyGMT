@@ -123,13 +123,15 @@ def create_map(inset_region, province,district, province_size, district_size,pro
         frame="ag",
     )
 
+    print(districts.columns)
     #fig2.plot(data=provinces, color="white", pen="1p,black")
     fig2.plot(data=provinces[provinces['ADM1_EN'] == province], color="steelblue", pen="1p,black")
     fig2.plot(data=districts[districts['ADM1_EN'] == province], pen="1p,black", label="District border")
     fig2.plot(data=districts[districts['ADM1_EN'] == province], pen="1p,white")
-    fig2.plot(data=districts[districts['ADM2_EN'] == district], color = "red", pen="1p,black", label=district)
-    fig2.plot(data=districts[districts['ADM2_EN'] == district], pen="1p,white")
-    fig2.plot(data=provinces[provinces['ADM1_EN'] == province], pen="1p,black")
+    #fig2.plot(data=districts[districts['ADM2_EN'] == district], color = "red", pen="1p,black", label=district)
+    fig2.plot(data=districts[(districts["ADM1_EN"] == province) & (districts["ADM2_EN"] == district)], color="red", pen="1p,black", label=district)
+    fig2.plot(data=districts[(districts["ADM1_EN"] == province) & (districts["ADM2_EN"] == district)], pen="1p,white")
+    fig2.plot(data=districts[(districts["ADM1_EN"] == province) & (districts["ADM2_EN"] == district)], pen="1p,black")
     
 
     #fig.plot(data=observation_area, color="green", label = "Observation area") # Too small, does not work
