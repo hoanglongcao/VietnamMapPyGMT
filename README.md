@@ -3,6 +3,10 @@
 
 Chương trình này tạo ra một bản đồ của Việt Nam bằng PyGMT và cho phép người dùng tùy chỉnh bản đồ bằng cách chọn một tỉnh và một huyện cụ thể, điều chỉnh kích thước của tỉnh và huyện, và chọn một khu vực rộng hơn thêm vào góc dưới bên trái bản đồ. Bản đồ được hiển thị với 2 cửa sổ mới sau khi người dùng nhấp vào nút "Create Map".
 
+> **Cập nhật quan trọng:** Địa giới hành chính mới sau sáp nhập của 34 tỉnh và thành phố đã được cập nhật.
+>
+> Phiên bản này tự động gộp các tỉnh cũ, phản ánh **biên giới mới** và cập nhật **danh sách tỉnh** trên GUI.
+
 ![GUI Image](GUI.png)
 
 ## Cài đặt
