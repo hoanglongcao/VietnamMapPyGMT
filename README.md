@@ -5,7 +5,7 @@ Chương trình này tạo ra một bản đồ của Việt Nam bằng PyGMT v�
 
 > **Cập nhật quan trọng:** Địa giới hành chính mới sau sáp nhập của 34 tỉnh và thành phố đã được cập nhật.
 >
-> Phiên bản này tự động gộp các tỉnh cũ, phản ánh **biên giới mới** và cập nhật **danh sách tỉnh** trên GUI.
+> Phiên bản này tự động gộp các tỉnh cũ, phản ánh **địa giới mới** và cập nhật **danh sách tỉnh** trên GUI.
 
 ![GUI Image](GUI.png)
 
